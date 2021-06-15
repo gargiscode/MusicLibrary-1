@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicLibrary", "MusicLibrary.csproj", "{DABAE142-2FBB-47ED-B925-8597A5523FF6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|ARM.Build.0 = Debug|ARM
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|ARM.Deploy.0 = Debug|ARM
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|ARM64.Build.0 = Debug|ARM64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|x64.ActiveCfg = Debug|x64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|x64.Build.0 = Debug|x64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|x64.Deploy.0 = Debug|x64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|x86.ActiveCfg = Debug|x86
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|x86.Build.0 = Debug|x86
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Debug|x86.Deploy.0 = Debug|x86
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|ARM.ActiveCfg = Release|ARM
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|ARM.Build.0 = Release|ARM
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|ARM.Deploy.0 = Release|ARM
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|ARM64.ActiveCfg = Release|ARM64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|ARM64.Build.0 = Release|ARM64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|ARM64.Deploy.0 = Release|ARM64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|x64.ActiveCfg = Release|x64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|x64.Build.0 = Release|x64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|x64.Deploy.0 = Release|x64
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|x86.ActiveCfg = Release|x86
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|x86.Build.0 = Release|x86
+		{DABAE142-2FBB-47ED-B925-8597A5523FF6}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CBFD79D-EFAD-4047-A631-14EAEF66280C}
+	EndGlobalSection
+EndGlobal
