@@ -10,32 +10,23 @@ namespace MusicLibrary.Model
     {
         Taylor,
         Selena,
-        Beyonce
+        Beyonce,
+        Sia
     }
-/*
-    public enum SongAlbum
-    {
-        Album1,
-        Album2,
-        Album3
-    }
-*/
+
     public class Song
     {
         public string SongTitle { get; set; }
         public SongArtist Artist { get; set; }
-        string AudioFile { get; set; }
+        public string AudioFile { get; set; }
+        public string ImageFile { get; set; }
 
         public Song(string songTitle, SongArtist artist) 
         {
             SongTitle = songTitle;
             Artist = artist;
-            AudioFile = $"Assets/Audio/{Artist}/{SongTitle}.wav";
+            AudioFile = $"/Assets/Audio/{artist}/{songTitle}.mp3";
+            ImageFile = $"/Assets/SongPics/Music.png";
         }
-    }
-
-
-
-
-    
+    }    
 }
