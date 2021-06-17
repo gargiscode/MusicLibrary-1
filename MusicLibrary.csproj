@@ -122,7 +122,10 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Playlist.cs" />
+    <Compile Include="Model\MenuItem.cs" />
     <Compile Include="Model\Song.cs" />
+    <Compile Include="Model\SongManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +134,20 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\AddButton\AddButton.png" />
+    <Content Include="Assets\ArtistImage\Beyonce.png" />
+    <Content Include="Assets\ArtistImage\Selena.png" />
+    <Content Include="Assets\ArtistImage\Sia.png" />
+    <Content Include="Assets\ArtistImage\Taylor.png" />
+    <Content Include="Assets\Audio\Beyonce\Beyonce1.mp3" />
+    <Content Include="Assets\Audio\Beyonce\Beyonce2.mp3" />
+    <Content Include="Assets\Audio\Selena\Selena1.mp3" />
+    <Content Include="Assets\Audio\Selena\Selena2.mp3" />
+    <Content Include="Assets\Audio\Sia\Sia1.mp3" />
+    <Content Include="Assets\Audio\Sia\Sia2.mp3" />
+    <Content Include="Assets\Audio\Taylor\Taylor1.mp3" />
+    <Content Include="Assets\Audio\Taylor\Taylor2.mp3" />
+    <Content Include="Assets\SongPics\Music.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -155,9 +172,7 @@
       <Version>6.2.12</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\Taylor\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
